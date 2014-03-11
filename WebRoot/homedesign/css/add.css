@@ -1,0 +1,32 @@
+/* CSS Document */
+
+/*����ҳ���*/
+.page{border:1px solid #CCCCCC; }
+a.bgcolor{background:#EEEEEE;padding:0px;width:25px;text-decoration:none;font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	color: #666666;}
+a.bgcolor:hover{background: #0099CC;color:#000000;}
+
+.bgcolor{background-color:#0099CC;padding:0px;width:28px;text-decoration:none;font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	color:#000000;
+	border:#EEEEEE 1px;}
+
+
+/*8.21*/	
+.save{
+	background-image:url(/SRIMS/images/save.jpg); 
+	width:97px; 
+	height:30px; 
+	border:#0099FF;
+}
+
+.back{
+	background-image:url(/SRIMS/images/back.jpg);
+	width:97px; 
+	height:30px; 
+	border:#0099FF;
+}
+

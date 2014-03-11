@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.com.sxt.servlet.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>InitGroupServlet</servlet-name>
+    <servlet-class>cn.com.sxt.servlet.InitGroupManageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>InitGroupServlet</servlet-name>
+    <url-pattern>/initGroupServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SendMessage</servlet-name>
+    <servlet-class>cn.com.servlet.SendMessage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendMessage</servlet-name>
+    <url-pattern>/sendMessage</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>Contact</servlet-name>
+    <servlet-class>cn.com.servlet.Contact</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Contact</servlet-name>
+    <url-pattern>/contact</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>PriceList</servlet-name>
+    <servlet-class>cn.com.servlet.PriceList</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PriceList</servlet-name>
+    <url-pattern>/priceList</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+   <servlet-name>AdminLogin</servlet-name>
+   <servlet-class>cn.com.servlet.AdminLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AdminLogin</servlet-name>
+  <url-pattern>/adminLogin</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>DesignDetail</servlet-name>
+    <servlet-class>cn.com.servlet.DesignDetail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DesignDetail</servlet-name>
+    <url-pattern>/designDetail</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
